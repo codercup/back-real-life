@@ -46,22 +46,22 @@ img {
   color: #000;
   font-weight: bold;
 }
-.main_back .create_css{
+.main_back .create_css {
   display: inline-block;
   width: 120px;
   height: 30px;
   line-height: 30px;
   border-radius: 4px;
-  background-color: #F5841F;
+  background-color: #f5841f;
   color: #fff;
- /* background-color: #fff;
+  /* background-color: #fff;
   color: #333;*/
   margin-top: 20px;
   font-size: 15px;
   text-align: center;
   font-weight: bold;
 }
-.main_back .invicode_css{
+.main_back .invicode_css {
   color: #333333;
   margin-top: 20px;
   font-size: 15px;
@@ -154,7 +154,7 @@ img {
   height: 35px;
   line-height: 35px;
   border-radius: 4px;
-  background-color: #6DCBFF;
+  background-color: #6dcbff;
   margin-left: 10px;
   font-size: 15px;
   text-align: center;
@@ -190,7 +190,7 @@ img {
   line-height: 60px;
   border-radius: 4px;
   /*background-color: #6DCBFF;*/
-  background-color:#F5841F;
+  background-color: #f5841f;
   margin-right: 120px;
   font-size: 22px;
   text-align: center;
@@ -238,9 +238,8 @@ img {
   /*justify-content: space-around;*/
 
   height: 500px;
-  justify-content:center;
-  box-sizing:
-          border-box;
+  justify-content: center;
+  box-sizing: border-box;
   padding: 10px 0;
 }
 .se_main .se_main_content .se_main_info_view .se_main_info_item {
@@ -293,7 +292,7 @@ a {
   flex-direction: column;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  background-image: url("../images/roadmapweb.png");
+  background-image: url('../images/roadmapweb.png');
 }
 .roadmap_main .roadmap_main_p {
   flex: 0 0 50px;
@@ -471,7 +470,7 @@ a {
 }
 .email_main .email_main_subtitle_view a {
   /*padding: 6px 20px;*/
-  background-color: rgb(114,240,158);;
+  background-color: rgb(114, 240, 158);
   height: 56px;
   text-align: center;
   width: 338px;
@@ -533,7 +532,7 @@ a {
   /* bottom: 0; */
   right: 0;
   height: 20vw;
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(0, 0, 0, 0.6);
   color: #fff;
   font-size: 14px;
   box-sizing: border-box;
@@ -630,8 +629,8 @@ a {
 }
 .footer_div {
   background-repeat: no-repeat;
-  background-size: cover, cover,cover;
-  background-image: url("../images/footer.png");
+  background-size: cover, cover, cover;
+  background-image: url('../images/footer.png');
   padding-bottom: 75px;
   padding-top: 260px;
 }
@@ -656,11 +655,12 @@ a {
   justify-content: space-between;
 }
 
-.title_p, .overflow_ellipsis {
-  overflow:hidden;
+.title_p,
+.overflow_ellipsis {
+  overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  -o-text-overflow:ellipsis;
+  -o-text-overflow: ellipsis;
 }
 
 .flex_width_clear {
@@ -676,9 +676,7 @@ a {
 
 /*--------------------------------------手机适配------------------------------------*/
 
-
 @media screen and (max-width: 920px) {
-
   .main_back {
     height: 400px;
     display: flex;
@@ -686,7 +684,7 @@ a {
     background-position: center 0px, center 0px, center 0px;
     /*background-size: cover, cover,cover;*/
     background: linear-gradient(#bb4907, #79f37c);
-    background-image: url("../images/bgphone.jpg");
+    background-image: url('../images/bgphone.jpg');
     /*background: url("../images/bgphone.svg#svgView(preserveAspectRatio(none))") center center no-repeat;*/
     background-size: 100% 100%;
     background-position: center;
@@ -729,7 +727,6 @@ a {
     flex-flow: column-reverse;
   }
 
-
   .main_back .main_middle_view .main_middle_view_img {
     display: none;
     width: 100%;
@@ -766,7 +763,7 @@ a {
     line-height: 40px;
     border-radius: 4px;
     /*background-color: #b92f2d;*/
-    background-color:#6DF5841F;
+    background-color: #6df5841f;
     /*margin-right: 120px;*/
     text-align: center;
     font-size: 16px;
@@ -783,7 +780,7 @@ a {
     /*margin-right: 120px;*/
     text-align: center;
     font-size: 16px;
-    background-color: #6DF5841F;
+    background-color: #6df5841f;
     /*color: #fff;*/
     font-weight: bold;
     color: #fff;
@@ -799,7 +796,6 @@ a {
   .se_main .se_main_content {
     flex-direction: column;
   }
-
 
   /*.se_main .se_main_content .se_main_content_image {*/
   /*    flex: 0 0 50%;*/
@@ -817,9 +813,8 @@ a {
     /*justify-content: space-around;*/
     /*background: red;*/
     /*height: 50px;*/
-    justify-content:center;
-    box-sizing:
-            border-box;
+    justify-content: center;
+    box-sizing: border-box;
     padding: 10px 0;
   }
   .se_main .se_main_content .se_main_info_view .se_main_info_item {
@@ -855,7 +850,7 @@ a {
     flex-direction: column;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    background-image: url("../images/roadmapphone.png");
+    background-image: url('../images/roadmapphone.png');
   }
   /*  .roadmap_main {*/
   /*    width: 100%;*/
@@ -1097,9 +1092,6 @@ a {
     height: 100%;
   }
 
-
-
-
   /*.footer_div {*/
   /*  background-repeat: no-repeat;*/
   /*  background-size: cover, cover,cover;*/
@@ -1113,8 +1105,8 @@ a {
 
   .footer_div {
     background-repeat: no-repeat;
-    background-size: cover, cover,cover;
-    background-image: url("../images/footer.png");
+    background-size: cover, cover, cover;
+    background-image: url('../images/footer.png');
     padding-bottom: 45px;
     background-size: 100% 100%;
     padding-top: 140px;
@@ -1162,6 +1154,5 @@ a {
     font-size: 11px;
   }
 }
-
 
 /*# sourceMappingURL=base.css.map */
