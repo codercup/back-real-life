@@ -2,7 +2,11 @@
 
 BRL: Back Real Life
 
-## run
+## github pages
+
+https://codercup.github.io/back-real-life/
+
+## local run
 
 open `index.html`,then use keyboard:
 
