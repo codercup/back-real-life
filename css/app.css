@@ -315,6 +315,7 @@
   font-weight: 700;
   font-size: 24px;
   color: #00e5ff;
+  color: #4095e5;
 }
 
 .motor .motor-content .motor-content__top .motor-feature__list .motor-feature__item .desc {
@@ -423,6 +424,7 @@
 
 .motor .motor-content__full .motor-story__text p {
   width: 50%;
+  width: 60%;
   text-align: left;
 }
 
@@ -1039,6 +1041,7 @@
     font-weight: 700;
     font-size: 24px;
     color: #00e5ff;
+    color: #4095e5;
   }
 
   .motor .motor-content .motor-content__top .motor-feature__list .motor-feature__item .desc {
