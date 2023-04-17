@@ -583,8 +583,10 @@
 .motor .line-back-view {
   width: 100%;
   height: 80px;
+  background-size: 120px 80px;
   max-height: 80px;
-  background-image: url(../img/line.a744f621.webp);
+  background-color: black;
+  background-image: url(../img/brc/run.png);
 }
 
 .motor .modal-warp {
@@ -1280,7 +1282,6 @@
   .motor .line-back-view {
     width: 100%;
     height: 80px;
-    background-image: url(../img/line.a744f621.webp);
   }
 
   .motor .motor-content__full .motor-people__item .motor-people__item-warp {
