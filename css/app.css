@@ -1447,3 +1447,7 @@ body * {
   text-align: center;
   color: #2c3e50;
 }
+
+.app-download-wrap + .app-download-wrap {
+  margin-left: 1em;
+}
