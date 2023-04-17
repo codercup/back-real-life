@@ -67,10 +67,6 @@
   border: 4px solid rgba(162, 239, 77, 1);
 }
 
-#ConnectWallet:hover {
-  transform: scale(1.05);
-}
-
 #cleanwallet {
   position: absolute;
   z-index: 11;
@@ -289,7 +285,7 @@
     bottom: 0px;
     top: 0%;
     margin-top: 0px;
-    width: 80%;
+    width: 90%;
     height: auto;
     line-height: 60px;
     text-align: center;
@@ -309,24 +305,11 @@
   }
 
   #MINT_it:hover {
-    position: inherit;
-    top: 0%;
-    margin-top: 0px;
-    width: 80%;
-    height: auto;
-    line-height: 60px;
-    text-align: center;
-    color: #ffffff;
-    font-size: 14px;
-    font-weight: 500;
-    border: 2px solid #008054;
     border-radius: 10px;
     background: #008054;
     backdrop-filter: blur(10px) brightness(100%); /** 背景模糊  高斯模糊*/
-    /*margin-top: 30px;*/
-    margin-left: 50%;
-    transform: translateX(-50%);
     overflow: hidden;
+    color: white;
   }
 
   #mintblock {
@@ -384,7 +367,28 @@
     /*transform: translateX(-50%);*/
     /*overflow: hidden;*/
   }
-
+  #ConnectWallet {
+    position: inherit;
+    /* z-index: 10; */
+    /* left: 50%; */
+    /* margin-left: -80px; */
+    bottom: 0px;
+    top: 0%;
+    margin-top: 0px;
+    width: 160px;
+    height: 40px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-size: 16px;
+    border: 2px solid #008054;
+    border-radius: 50px;
+    background: #000000;
+    margin-top: 10px;
+  }
   #cleanwallet {
     position: absolute;
     z-index: 11;
