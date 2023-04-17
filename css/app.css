@@ -534,8 +534,8 @@
 }
 
 .motor .motor-content__auto-height {
-  width: 80%;
-  margin-left: 10%;
+  /* width: 80%; */
+  /* margin-left: 10%; */
   height: auto;
 }
 
