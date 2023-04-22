@@ -8,6 +8,10 @@
   font-weight: 100;
 }
 
+.motor .motor-content .motor-content__top .motor-content__middle .content-middle__title3 {
+  font-size: 32px;
+}
+
 .logo-text-color {
   color: #00e5ff;
 }
@@ -709,6 +713,9 @@
 }
 
 @media screen and (max-width: 900px) {
+  .motor .motor-content .motor-content__top .motor-content__middle .content-middle__title3 {
+    font-size: 16px;
+  }
   .motor .motor-content .motor-content__top .motor-content__top-left {
     margin-top: 50px;
     flex: 0 0 480px;
@@ -1007,11 +1014,11 @@
   }
 
   .motor .motor-content .motor-content__top .motor-content__middle .content-middle__title1 {
-    font-size: 36px;
+    font-size: 26px;
   }
 
   .motor .motor-content .motor-content__top .motor-content__middle .content-middle__title2 {
-    font-size: 72px;
+    font-size: 60px;
     color: #ffbf00;
   }
 
