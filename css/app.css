@@ -243,10 +243,12 @@
 
 .motor .motor-content .motor-content__top .motor-content__middle {
   min-width: 320px;
+  min-width: 600px;
   height: 80%;
   width: 50%;
   box-sizing: border-box;
   padding-right: 20%;
+  padding-right: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -266,11 +268,11 @@
 }
 
 .motor .motor-content .motor-content__top .motor-content__middle .content-middle__title1 {
-  font-size: 48px;
+  font-size: 46px;
 }
 
 .motor .motor-content .motor-content__top .motor-content__middle .content-middle__title2 {
-  font-size: 138px;
+  font-size: 100px;
   color: #ffbf00;
 }
 
